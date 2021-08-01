@@ -1,0 +1,17 @@
+{
+  "name": "mandelbrot",
+  "version": "1.0.0",
+  "description": "Mandelbrot set",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Momir Stanišić",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.7"
+  },
+  "dependencies": {
+    "jshint": "^2.13.0"
+  }
+}
