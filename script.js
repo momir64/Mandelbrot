@@ -1,18 +1,5 @@
 /*jshint esversion: 8 */
 
-var colors = [
-    '#FF6565',
-    '#FFB65C',
-    '#FAFF6D',
-    '#89FF71',
-    '#54F1FF',
-    '#5898FF',
-    '#7F69FF',
-    '#FF7AFF'
-];
-
-var mat = [[]];
-
 function setPixel(imageData, x, y, r, g, b, a) {
     var index = 4 * (x + y * imageData.width);
     imageData.data[index + 0] = r;
